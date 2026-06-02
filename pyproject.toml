@@ -1,0 +1,15 @@
+[project]
+name = "frappe_3cx"
+authors = [{ name = "Your Company", email = "you@example.com" }]
+description = "One-way 3CX call logging into Frappe/ERPNext, linked to Contacts."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = []
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0,<16.0.0"

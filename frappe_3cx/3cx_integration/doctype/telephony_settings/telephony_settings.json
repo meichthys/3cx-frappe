@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2026-01-01 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "auto_create_contact",
+  "number_match_digits"
+ ],
+ "fields": [
+  {
+   "fieldname": "auto_create_contact",
+   "fieldtype": "Check",
+   "label": "Auto-create a Contact for unknown callers",
+   "default": "0",
+   "description": "If off (recommended), calls from unknown numbers are still logged but left unlinked."
+  },
+  {
+   "fieldname": "number_match_digits",
+   "fieldtype": "Int",
+   "label": "Digits to match",
+   "default": "8",
+   "description": "How many trailing digits of a phone number to compare when matching a caller to a Contact. 8 tolerates country-code and formatting differences while staying specific."
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "3CX Integration",
+ "name": "Telephony Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,13 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.txt
+recursive-include frappe_3cx *.css
+recursive-include frappe_3cx *.csv
+recursive-include frappe_3cx *.html
+recursive-include frappe_3cx *.js
+recursive-include frappe_3cx *.json
+recursive-include frappe_3cx *.py
+recursive-include frappe_3cx *.txt
+recursive-exclude frappe_3cx *.pyc
