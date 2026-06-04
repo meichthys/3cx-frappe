@@ -1,5 +1,8 @@
 # Frappe 3CX
 
+> [!WARNING]
+> This application was created with ClaudeCode and is not fully tested. Use at your own risk.
+
 A small, one-way integration that logs **incoming 3CX calls** into Frappe/ERPNext
 and links each call to the matching **Contact**.
 
